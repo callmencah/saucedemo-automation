@@ -1,0 +1,38 @@
+# Test Results (auto-generated)
+results/
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Selenium
+*.log
+geckodriver.log
+chromedriver.log
+
+# Node (jika ada)
+node_modules/
+package.json
+package-lock.json
