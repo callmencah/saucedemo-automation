@@ -2,6 +2,8 @@
 Documentation    Test data for SauceDemo automation tests
 
 *** Variables ***
+${BROWSER}                  chrome
+
 # ==================== VALID CREDENTIALS ====================
 ${VALID_USERNAME}           standard_user
 ${VALID_PASSWORD}           secret_sauce

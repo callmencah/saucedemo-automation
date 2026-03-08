@@ -1,5 +1,7 @@
 # 🤖 SauceDemo Automation Test — Robot Framework
 
+[![UI Tests](https://github.com/callmencah/saucedemo-automation/actions/workflows/robot-tests.yml/badge.svg)](https://github.com/callmencah/saucedemo-automation/actions/workflows/robot-tests.yml)
+
 Automation test untuk aplikasi **[SauceDemo](https://www.saucedemo.com/)** menggunakan **Robot Framework** dengan **SeleniumLibrary**.
 
 

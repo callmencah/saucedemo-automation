@@ -15,6 +15,7 @@ Open Browser To SauceDemo
     Call Method    ${chrome_options}    add_experimental_option    excludeSwitches    ${{["enable-automation"]}}
     ${prefs}=    Create Dictionary    credentials_enable_service=${False}    profile.password_manager_enabled=${False}    profile.password_manager_leak_detection=${False}
     Call Method    ${chrome_options}    add_experimental_option    prefs    ${prefs}
+    Run Keyword If    '${BROWSER}' == 'headlesschrome'    Call Method    ${chrome_options}    add_argument    --headless=new
     Create Webdriver    Chrome    options=${chrome_options}
     Go To    ${BASE_URL}
     Maximize Browser Window
